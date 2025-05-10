@@ -64,7 +64,7 @@ Follow these steps to set up the script:
 
 1. **Clone the Repository**:  
    ```bash
-   git clone https://github.com/your-username/Script_Backup_Automated.git
+   git clone https://github.com/Sally-Gamal/Script_Backup_Automated.git
    cd Script_Backup_Automated
    ```
 
@@ -120,10 +120,8 @@ perform_backup(){
   rsync -avz /home/kali/Desktop/Backup /home/kali/Desktop/New_Backup > "$log_situation" 2>/dev/null
   if [ $? -eq 0 ]; then
     echo "backup successful :$(date)" >> "$log_situation"
-    notify-send "Backup Status" "Backup completed successfully" -t 5000
   else
     echo "backup failed :$(date)" >> "$log_situation"
-    notify-send "Backup Status" "Backup failed" -t 5000 -u critical
   fi
 }
 
