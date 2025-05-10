@@ -28,7 +28,7 @@ To use these scripts, ensure you have:
 ### Installation
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/Scripts_Automation_For_Bash.git
+   git clone https://github.com/Sally-Gamal/Scripts_Automation_For_Bash.git
    cd Scripts_Automation_For_Bash
    ```
 
