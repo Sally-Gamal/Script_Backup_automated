@@ -105,7 +105,7 @@ This project is licensed under the [MIT License](LICENSE). Feel free to use, mod
 
 ## 🌟 Acknowledgments
 
-- Built with ❤️ by **ENG/Sally Gamal** ([LinkedIn](https://www.linkedin.com/in/sally-gamal/)).
+- Built with ❤️ by **Sally Gamal** ([LinkedIn](https://www.linkedin.com/in/sally-gamal/)).
 - Thanks to the Bash and open-source community for inspiration and support.
 - Special thanks to all contributors and script testers!
 
