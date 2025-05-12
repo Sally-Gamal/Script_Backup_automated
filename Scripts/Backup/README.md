@@ -111,13 +111,13 @@ Here’s the complete Bash script (`backup.sh`):
 #!/bin/bash
 
 # Variables
-source="/home/kali/Desktop/New_Backup"
+source="/home/sally/Documents/"
 log_situation="backup.log"
-local_backup_dir="/home/kali/Desktop/Backup"
+local_backup_dir="~/Bakups"
 
 # Function
 perform_backup(){
-  rsync -avz /home/kali/Desktop/Backup /home/kali/Desktop/New_Backup > "$log_situation" 2>/dev/null
+   rsync -avz /home/sally/Documents ~/bakups > "$log_situation" 2>/dev/null
   if [ $? -eq 0 ]; then
     echo "backup successful :$(date)" >> "$log_situation"
   else
