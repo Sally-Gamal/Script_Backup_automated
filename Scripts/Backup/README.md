@@ -1,6 +1,6 @@
 # 📂 Script_Backup_Automated
 
-**A lightweight Bash script for automated file backups with logging, error handling, and desktop notifications.**
+**A lightweight Bash script for automated file backups.**
 
 This repository provides a simple, efficient Bash script to automate file backups from a source directory to a local backup destination. It uses `rsync` for reliable file synchronization, logs operations with timestamps, and sends desktop notifications to inform you of the backup status.
 
